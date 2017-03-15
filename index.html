@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+     <title>Ejercicio 5.5.7</title>
+         
+   </head>
+   <body>
+     <a href="javascript:image()">Picha aqui</a>
+     <div id="foto"></div>
+        <script type="text/javascript" charset="utf-8">
+			  var images = [
+				'https://yt3.ggpht.com/-FJXWJ1x1bEQ/AAAAAAAAAAI/AAAAAAAAAAA/ZtyuZ-elFr4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg',
+				'https://s-media-cache-ak0.pinimg.com/564x/f5/9b/1b/f59b1b0cc430702e82dea90780d7f87d.jpg',
+				'http://vignette1.wikia.nocookie.net/blogclan-2/images/4/45/Random-turtle.gif/revision/latest?cb=20160706220110',
+				'https://6inklings.files.wordpress.com/2016/05/1.gif?w=376',
+				'https://pbs.twimg.com/profile_images/714225595727609856/fF2yIUyE.jpg'
+			  ]
+			  function image(){
+				element = document.getElementById("foto");
+				urlimage = images[Math.floor(Math.random()*images.length)]
+				element.innerHTML = '<img src="' + urlimage + '">';
+			  };
+			  image();
+          </script>
+   </body>
+  </html>
