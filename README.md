@@ -9,5 +9,5 @@ Escribe una página HTML con el código JavaScript asociado necesario, de forma 
 
 Ejercicio resuelto en gh-pages.
 
-[Try Me!](https://adrioter94.github.io/X-Nav-5.7.13-WebWorkers)
+[Try Me!](https://adrioter94.github.io/X-Nav-JS-Foto)
 
